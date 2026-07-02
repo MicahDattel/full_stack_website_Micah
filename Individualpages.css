@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'main_font';
+    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+    font-style: normal;
+    
+}
+
+*{
+    font-family: 'main_font';
+}
+
+   body {
+    background-color: rgb(99, 169, 129);
+    background-image: url("/Images/Travel_site_background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+
+img{
+    width: 30%;
+}
+.button{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.parent-card{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(27, 27, 27, 0.167);
+    backdrop-filter: blur(8px);
+
+}
+
+.card1{
+    width:300px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+.card2{
+    width:300px;
+    height: 200px;
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+   
+}
+
+.my_navbar{
+    display: flex;
+    gap: 50px;
+    background-color:  rgba(128, 224, 200, 0.085);
+}
+.my_navbar:hover{
+    background-color:rgba(128, 224, 169, 0.241);
+    cursor: pointer;
+    block-size: 6.2%;
+
+}
+a{
+    text-decoration: none !important;
+    color: rgba(18, 12, 0, 0.953);
+    gap: 50;
+    
+    
+}
+.image{
+    border-radius: 50%;
+}
+.nyc{
+    margin: 10px;
+    padding: 20px;
+}
+.testLOL{
+    text-decoration: none !important;
+    color: rgba(18, 12, 0, 0.953);
+}

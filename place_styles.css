@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'main_font';
+    src: url(OpenSans-VariableFont_wdth,wght.ttf);
+    font-style: normal;
+    
+}
+        
+
+
+*{
+    font-family: 'main_font';
+}
+
+body {
+    background-color: rgb(99, 169, 129);
+    background-image: url("/Images/Travel_site_background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    width: 30%;
+}
+
+
+
+.parent-card{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+.card1{
+    width: 1000px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.162);
+    backdrop-filter: blur(8px);
+
+}
+.card2{
+    width: 1000px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.my_navbar{
+    display: flex;
+    gap: 50px;
+    background-color: rgba(128, 224, 169, 0.171);
+    
+    
+}
+.my_navbar:hover{
+    background-color:rgba(128, 224, 169, 0.241);
+    cursor: pointer;
+    block-size: 7.6%;
+
+}
+
+a{
+    text-decoration: none !important;
+    color: rgba(18, 12, 0, 0.953);
+    gap: 50;
+    align-items: center;
+}
+
+.testLOL{
+    text-decoration: none !important;
+    color: rgba(18, 12, 0, 0.953);
+}
