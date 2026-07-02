@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
 }
 
-/* NAVBAR */
+
 .my_navbar {
     display: flex;
     gap: 50px;
@@ -34,7 +34,7 @@ body {
     cursor: pointer;
 }
 
-/* LINKS */
+
 a {
     text-decoration: none !important;
     color: rgba(18, 12, 0, 0.953);
@@ -44,7 +44,7 @@ a {
     color: rgba(18, 12, 0, 0.953);
 }
 
-/* FRONT PAGE */
+
 .FrontPage {
     height: 100vh;
     padding: 200px;
@@ -54,7 +54,7 @@ a {
     font-size: 100px;
 }
 
-/* CLICK HERE BUTTON */
+
 .clickhere {
     font-size: 20px;
     background-color: rgb(0, 174, 255);
@@ -73,14 +73,12 @@ a {
     cursor: pointer;
 }
 
-/* CLICK ANIMATION (NEW) */
+
 .clickhere:active {
     transform: scale(0.95);
 }
 
-/* CONNECTED BUTTON + CARDS UI */
 
-/* TOP BANNER */
 .button {
     display: flex;
     align-items: center;
@@ -105,7 +103,7 @@ a {
     margin: 0;
 }
 
-/* CARDS SECTION */
+
 .parent-card {
     display: flex;
     justify-content: space-between;
@@ -122,7 +120,7 @@ a {
     border-radius: 0 0 12px 12px;
 }
 
-/* CARDS */
+
 .card1, .card2 {
     width: 180px;
     height: 120px;
