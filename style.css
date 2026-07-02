@@ -15,7 +15,7 @@ body {
     background-image: url("/Images/Travel_site_background.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    /*padding: 10px;*/
+    
     padding: 0;
     margin: 0;
   
@@ -64,28 +64,42 @@ body {
 img{
     width: 30%;
 }
+
+
 .parent-card{
-    display:flex;
-    align-items: center;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
     background-color: rgba(27, 27, 27, 0.167);
     backdrop-filter: blur(8px);
+    padding: 15px 40px;            
+    width: 100%;
 }
 
 .card1{
-    width:1000px;
+    width: 180px;  
+    height: 120px; 
     display: flex;
     align-items: center;
-    object-fit: cover;
+    overflow: hidden;
+}
 
-}
 .card2{
-    width:max-content;
+    width: 180px;  
+    height: 120px; 
     display: flex;
-    object-fit: cover;
     align-items: center;
-   
+    overflow: hidden;
 }
+
+
+.card1 img, .card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
 
 .my_navbar{
     display: flex;
