@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dubai</title>
+    <title>France</title>
 
     <link rel="stylesheet" href="individualpages.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -12,7 +12,7 @@
 
 <body>
 
-    
+    <!-- Navigation -->
     <div class="my_navbar">
         <a href="index.html" class="text-decoration-none">
             <h2 class="testLOL">Home</h2>
@@ -23,44 +23,42 @@
         </a>
     </div>
 
-   
-    <h1>Stuff to Do in Dubai</h1>
+    <!-- Page Title -->
+    <h1>Stuff to Do in France</h1>
 
     <h2>
-        Top Locations to Visit: Burj Khalifa, Dubai Mall, Palm Jumeirah,
-        Dubai Fountain, Dubai Frame, and Sky Views Observatory
+        Top Locations to Visit: The French Riviera, the Eiffel Tower,
+        and the Louvre Museum
     </h2>
 
     <!-- Main Content -->
     <div style="display: flex; align-items: center; gap: 30px; margin: 30px;">
 
         <img
-            src="Images/images (7).jpg"
-            alt="Dubai scenery"
+            src="Images/1e41b190b40d70879dc3321f39e6122e30dafac4-1600x1067 (1).jpg"
+            alt="France scenery"
             style="width: 600px; height: auto; border-radius: 10px;">
 
         <div>
 
             <p class="h3">
-                Dubai is one of the most modern and luxurious cities in the world.
-                A must-visit landmark is the Burj Khalifa, the tallest building on Earth.
+                France has lots to offer! We recommend visiting the
+                world-famous Louvre Museum, where you can see incredible
+                artwork including the famous Mona Lisa.
             </p>
 
             <p class="h3">
-                You can also enjoy shopping at the Dubai Mall or Mall of the Emirates,
-                watch the stunning Dubai Fountain show, and explore the unique Dubai Frame.
-            </p>
-
-            <p class="h3">
-                For amazing views, visit the Sky Views Observatory or relax on the
-                beautiful Palm Jumeirah island.
+                You should also visit the iconic Eiffel Tower, relax
+                along the beautiful French Riviera, and enjoy a scenic
+                cruise down the Seine River while exploring the city of
+                Paris.
             </p>
 
         </div>
 
     </div>
 
-    
+    <!-- Search Button -->
     <a href="places.html" class="text-decoration-none">
 
         <div class="button">
@@ -74,7 +72,7 @@
 
     </a>
 
-   
+    <!-- Destination Cards -->
     <div class="parent-card">
 
         <div class="card1">
